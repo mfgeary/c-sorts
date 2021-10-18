@@ -4,7 +4,7 @@ I analysized the efficiency of different sort algorithms written in C. First, I 
 # Usage
 The sorting algorithms are found in `sorts.c`. Run `experiments.c` to view the efficiency of different sorting algorithms. Run times are given in microseconds. `csci245-project1.ipynb` contains the data analytics based on the experimental efficiency data and predicted run times in terms of big O.
 
-To run `experiments.c`, include a .csv file to print the experimental data.
+To run `experiments.c`, include an output .csv file to print the experimental data.
 ```
 make experiments
 ./experiments experimentdata.csv

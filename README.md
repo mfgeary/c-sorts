@@ -3,6 +3,7 @@ I analysized the efficiency of different sort algorithms written in C. First, I 
 
 # Output
 The code print the number of comparisons and the running times for the different sorting algorithms based on the number of elements in the array.
+![sort-experiment-output](./sort-experiment-output.png)
 
 # Usage
 The sorting algorithms are found in `sorts.c`. Run `experiments.c` to view the efficiency of different sorting algorithms. Run times are given in microseconds. `csci245-project1.ipynb` contains the data analytics based on the experimental efficiency data and predicted run times in terms of big O.
